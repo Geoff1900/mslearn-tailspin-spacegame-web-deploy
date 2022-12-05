@@ -94,7 +94,6 @@ stages:
   displayName: 'Deploy to the test environment'
   dependsOn: Dev
   jobs:
-  - job: 'Deploy'  
   - deployment: Deploy
     pool:
       vmImage: 'ubuntu-20.04'
